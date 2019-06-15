@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recicleView">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <FrameLayout
+        android:id="@+id/placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF">
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/push"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aggiungi"
+        android:backgroundTint="@android:color/white"
+        android:layout_alignEnd="@+id/recicleView"
+        android:layout_alignRight="@+id/recicleView"
+        android:layout_alignBottom="@+id/recicleView"
+        android:layout_marginEnd="19dp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="22dp" />
+
+    <Button
+        android:id="@+id/reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/recicleView"
+        android:layout_alignRight="@+id/recicleView"
+        android:layout_alignBottom="@+id/recicleView"
+        android:layout_marginEnd="19dp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="94dp"
+        android:backgroundTint="@android:color/white"
+        android:text="ricarica" />
+
+
+</RelativeLayout>
