@@ -1,10 +1,6 @@
 ## Project title
 Database ad oggetti creato con MongoDB-Atlas, basato su una lista di cocktails e drink.
 
-![ezgif.com-resize_4_](uploads/fde3621563456c07baf4687684407da3/ezgif.com-resize_4_.gif)
-![mdb](uploads/0d548fef23caf538e759c796026db09a/mdb.png)
-![ezgif.com-resize_3_](uploads/da9741e278c50d9c12bcdaec7124d775/ezgif.com-resize_3_.gif)
-
 ## Perchè Mongo
 La decisione di lavorare con mongo è puramente soggettiva, a scopo autodidattico.
 Tramite l'uso di mongo rappresentare la lisa di drink o cocktail risulta molto piu intuitiva e ne rappresenta nel modo piu diretto possibile gli oggetti reali. 
