@@ -1,4 +1,4 @@
-## Project title
+## Cocktails App
 Database ad oggetti creato con MongoDB-Atlas, basato su una lista di cocktails e drink.
 
 ## Perchè Mongo
